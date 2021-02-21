@@ -123,6 +123,8 @@ header .logo {
     font-weight: 500;
     font-style: normal;
     font-size: 14px;
+    display: flex;
+    /* align-items: center; */
 }
 
 .header-nav-menu a:hover,
@@ -132,12 +134,6 @@ header .logo {
 .header-nav-menu .current {
     color: var(--accent-blue);
     fill: var(--accent-blue);
-}
-
-.header-nav-text a {
-    display: inline-flex;
-    align-items: center;
-    color: var(--font-grey);
 }
 
 header .icon {
@@ -179,9 +175,10 @@ header .container,
 
 .header-nav-menu a,
 .header-nav-text a {
-    display: block;
+    display: flex;
     padding-top: 32px;
     padding-bottom: 32px;
+    align-items: center;
 }
 
 /* FOOTER */
